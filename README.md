@@ -93,7 +93,7 @@ A collection of **12 stored procedures** designed for efficient and reusable que
 To replicate this database in **SQL Server Management Studio (SSMS)**:
 
 ### Step 1: Create Database & Tables
-- Run 'BuildCourseSalesDb.sql'
+- Run `BuildCourseSalesDb.sql`  
 - Run remaining scripts in CourseSalesDb Setup to insert data
 
 ### Step 2: Create Views
