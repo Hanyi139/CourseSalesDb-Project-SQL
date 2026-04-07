@@ -63,10 +63,10 @@ A collection of **12 stored procedures** designed for efficient and reusable que
   → Returns all products (no parameters)
 
 - `GetProductsByCategory`  
-  → Filters products by 'Category'
+  → Filters products by `Category`
 
 - `GetProductsByName`  
-  → Filters products by 'ProductName'
+  → Filters products by `ProductName`
 
 ---
 
@@ -75,13 +75,13 @@ A collection of **12 stored procedures** designed for efficient and reusable que
   → Returns all orders (via reporting view)
 
 - `GetOrdersViewStatus`  
-  → Retrieves orders by 'OrderStatus' (open/closed)
+  → Retrieves orders by `OrderStatus` (open/closed)
 
 - `GetOrdersByCustomerID`  
   → Retrieves orders by `CustomerID`
 
 - `GetOrdersByCustomerName`  
-  → Retrieves orders by 'CustomerName'
+  → Retrieves orders by `CustomerName`
 
 - `GetOrdersDetailsByOrderID`  
   → Retrieves order details by `OrderID`
