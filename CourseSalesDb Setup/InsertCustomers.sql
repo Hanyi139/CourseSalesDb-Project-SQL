@@ -1,0 +1,65 @@
+USE [CourseSalesDb]
+GO
+
+INSERT INTO [dbo].[Customers]
+           ([FirstName]
+           ,[LastName]
+           ,[Email]
+           ,[City]
+           ,[StateCode]
+          )
+     VALUES
+('Alicia', 'Brown', 'alicia.brown@example.com', 'Dallas', 'TX'),
+('Marcus', 'Hill', 'marcus.hill@example.com', 'Chicago', 'IL'),
+('Sonia', 'Patel', 'sonia.patel@example.com', 'Atlanta', 'GA'),
+('David', 'Nguyen', 'david.nguyen@example.com', 'Houston', 'TX'),
+('James', 'Walker', 'jwalker1@email.com', 'Memphis', 'TN'),
+('Olivia', 'Hall', 'ohall2@email.com', 'Nashville', 'TN'),
+('Liam', 'Allen', 'lallen3@email.com', 'Atlanta', 'GA'),
+('Emma', 'Young', 'eyoung4@email.com', 'Birmingham', 'AL'),
+('Noah', 'Hernandez', 'nhernandez5@email.com', 'Jackson', 'MS'),
+('Ava', 'King', 'aking6@email.com', 'Little Rock', 'AR'),
+('Elijah', 'Wright', 'ewright7@email.com', 'Dallas', 'TX'),
+('Sophia', 'Lopez', 'slopez8@email.com', 'Austin', 'TX'),
+('William', 'Hill', 'whill9@email.com', 'Houston', 'TX'),
+('Isabella', 'Scott', 'iscott10@email.com', 'New Orleans', 'LA'),
+('Lucas', 'Green', 'lgreen11@email.com', 'Baton Rouge', 'LA'),
+('Mia', 'Adams', 'madams12@email.com', 'Tampa', 'FL'),
+('Mason', 'Baker', 'mbaker13@email.com', 'Orlando', 'FL'),
+('Charlotte', 'Gonzalez', 'cgonzalez14@email.com', 'Miami', 'FL'),
+('Ethan', 'Nelson', 'enelson15@email.com', 'Charlotte', 'NC'),
+('Amelia', 'Carter', 'acarter16@email.com', 'Raleigh', 'NC'),
+('Logan', 'Mitchell', 'lmitchell17@email.com', 'Richmond', 'VA'),
+('Harper', 'Perez', 'hperez18@email.com', 'Charleston', 'SC'),
+('Alexander', 'Roberts', 'aroberts19@email.com', 'Columbia', 'SC'),
+('Evelyn', 'Turner', 'eturner20@email.com', 'Knoxville', 'TN'),
+('Daniel', 'Phillips', 'dphillips21@email.com', 'Chattanooga', 'TN'),
+('Abigail', 'Campbell', 'acampbell22@email.com', 'Huntsville', 'AL'),
+('Matthew', 'Parker', 'mparker23@email.com', 'Montgomery', 'AL'),
+('Emily', 'Evans', 'eevans24@email.com', 'Shreveport', 'LA'),
+('Joseph', 'Edwards', 'jedwards25@email.com', 'Lafayette', 'LA'),
+('Elizabeth', 'Collins', 'ecollins26@email.com', 'Fayetteville', 'AR'),
+('David', 'Stewart', 'dstewart27@email.com', 'Fort Smith', 'AR'),
+('Sofia', 'Sanchez', 'ssanchez28@email.com', 'San Antonio', 'TX'),
+('Jackson', 'Morris', 'jmorris29@email.com', 'El Paso', 'TX'),
+('Avery', 'Rogers', 'arogers30@email.com', 'Jacksonville', 'FL'),
+('Sebastian', 'Reed', 'sreed31@email.com', 'Tallahassee', 'FL'),
+('Ella', 'Cook', 'ecook32@email.com', 'Savannah', 'GA'),
+('Aiden', 'Morgan', 'amorgan33@email.com', 'Macon', 'GA'),
+('Scarlett', 'Bell', 'sbell34@email.com', 'Augusta', 'GA'),
+('Samuel', 'Murphy', 'smurphy35@email.com', 'Greenville', 'SC'),
+('Victoria', 'Bailey', 'vbailey36@email.com', 'Spartanburg', 'SC'),
+('Benjamin', 'Rivera', 'brivera37@email.com', 'Norfolk', 'VA'),
+('Aria', 'Cooper', 'acooper38@email.com', 'Virginia Beach', 'VA'),
+('Henry', 'Richardson', 'hrichardson39@email.com', 'Roanoke', 'VA'),
+('Grace', 'Cox', 'gcox40@email.com', 'Lexington', 'KY'),
+('Owen', 'Howard', 'ohoward41@email.com', 'Louisville', 'KY'),
+('Chloe', 'Ward', 'cward42@email.com', 'Bowling Green', 'KY'),
+('Wyatt', 'Torres', 'wtorres43@email.com', 'Oklahoma City', 'OK'),
+('Lily', 'Peterson', 'lpeterson44@email.com', 'Tulsa', 'OK'),
+('Gabriel', 'Gray', 'ggray45@email.com', 'Wichita', 'KS'),
+('Zoey', 'Ramirez', 'zramirez46@email.com', 'Topeka', 'KS'),
+('Julian', 'James', 'jjames47@email.com', 'Springfield', 'MO'),
+('Hannah', 'Watson', 'hwatson48@email.com', 'Columbia', 'MO'),
+('Levi', 'Brooks', 'lbrooks49@email.com', 'St. Louis', 'MO'),
+('Nora', 'Kelly', 'nkelly50@email.com', 'Kansas City', 'MO');
